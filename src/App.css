@@ -1,0 +1,22 @@
+.App {
+  height: 100vh;
+  background: lightseagreen;
+  text-align: center;
+  justify-content: space-around;
+}
+
+td {
+  height: 30px;
+  width: 30px;
+  background: white;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1px;
+  flex-flow: row;
+}
+
+textarea {
+  width: 200px;
+  height: 200px;
+}
