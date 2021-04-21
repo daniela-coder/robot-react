@@ -1,3 +1,10 @@
+# Daily stand-up updates
+
+Yesterday I implemented the textarea where to input the script to control the robot. I added the code to consume the REST API and to call the POST method on the endpoint provided from the backend. I render the response from the backend in the UI just as a text for now. I was starting to play around to render the robot position and the direction it looks at, on a table that reprensent the grid on which the robot can move. The response from the endpoint contains a list of robot states. Each robot state provides the position and direction the robot looks at, that is the result of the execution of each single command in the script and should be used to calculate the corresponging cell in tne table in which render the robot. 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
